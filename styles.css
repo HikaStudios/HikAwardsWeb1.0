@@ -1,0 +1,85 @@
+body {
+    background-color: #ffebee; /* Color de fondo similar a Google Forms */
+   margin-top: 200px;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.btn-primary {
+    background-color: #e91e63; /* Color rosa similar a Google Forms */
+    border-color: #e91e63;
+}
+
+.btn-primary:hover {
+    background-color: #c2185b; /* Color rosa más oscuro al pasar el ratón */
+    border-color: #c2185b;
+}
+
+/* Estilos adicionales para centrar el nombre del usuario y ajustar el espacio en el header */
+.profile-picture {
+    max-width: 50px; /* Ajusta el ancho máximo de la imagen de perfil según tus preferencias */
+    max-height: 50px; /* Ajusta la altura máxima de la imagen de perfil según tus preferencias */
+    padding-right: 5px;
+}
+
+.navbar-brand {
+    font-weight: bold; /* Texto en negrita */
+    font-size: 24px; /* Tamaño de fuente más grande, ajusta según tus preferencias */
+}
+
+.profile-name {
+    margin-bottom: 5px; /* Espacio superior entre la imagen de perfil y el nombre del usuario */
+}
+
+.btn-danger {
+    margin-top: 5px; /* Espacio superior entre el nombre del usuario y el botón de cerrar sesión */
+    display: inline-block; /* Para que el botón ocupe solo el ancho necesario */
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Asegura que el encabezado esté por encima de otros elementos */
+    background-color: rgb(236, 224, 243); /* Cambiado a negro */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+}
+
+select option:disabled {
+    background-color: #cacaca; /* Cambia el color de fondo a gris claro */
+    color: #000000; /* Cambia el color del texto a gris más oscuro */
+}
+
+.place-overlay {
+    position: absolute;
+    top: 58%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+.place-overlay img {
+    max-width: 100px; /* Ajusta el tamaño máximo de la imagen */
+    max-height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Estilo para las insignias */
+.badge-image {
+    width: 35px; /* Ajusta el ancho según tus necesidades */
+    height: 35px; /* Ajusta la altura según tus necesidades */
+    margin-left: 10px;
+}
+
+
+
+
